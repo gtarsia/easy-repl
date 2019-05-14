@@ -8,7 +8,7 @@ I miss `rails console` when working in js, so this facilitates that sort of thin
 
 ## Running
 
-Please, run this in node 11 and use `node --experimental-repl-await` for awesome top-level async support 🎆
+Please, run this in node 11 and use `node --experimental-repl-await` for awesome top-level async support.
 
 ```javascript
 const dog = {
@@ -27,4 +27,4 @@ repl({ dog })
 
 ## Requirements
 
-I don't know how far back it goes, but to really get the 
+I don't know how far back it goes, but try using node 11 for top-level async.
