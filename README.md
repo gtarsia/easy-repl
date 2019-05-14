@@ -1,4 +1,4 @@
-# easy-repl
+# repl-with-globals
 
 Starts a node console (repl) with whatever globals you want to preload it with.
 
@@ -18,7 +18,7 @@ const dog = {
 
 const repl = require('repl-with-globals')
 
-repl({ dog, asyncFunction })
+repl({ dog })
 // > dog.bark()
 // 'Woof, woof'
 // > await dog.barkAsync()
